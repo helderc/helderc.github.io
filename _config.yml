@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "PhotoEditor_20190312_122522538.jpg"
-  bio              : &description #"Your biography for the left-hand sidebar"
-  location         : "São Carlos/SP - Brazil"
+  bio              : "PhD student in Electrical Engineering working with medical images and machine learning"
+  location         : "São Carlos/SP, Brazil"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=2M2ZAswAAAAJ"
