@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "PhotoEditor_20190312_122522538.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : &description #"Your biography for the left-hand sidebar"
   location         : "São Carlos/SP - Brazil"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
