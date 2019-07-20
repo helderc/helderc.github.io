@@ -75,7 +75,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          :  "UA-67863001-1"
 
 
 # Site Author
@@ -83,11 +83,11 @@ author:
   name             : "Your Sidebar Name"
   avatar           : "PhotoEditor_20190312_122522538.jpg"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "São Carlos/SP - Brazil"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=2M2ZAswAAAAJ"
-  email            :
+  email            : "heldercro@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
