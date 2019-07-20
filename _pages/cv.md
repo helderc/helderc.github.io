@@ -11,53 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Electrical Engineering, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2019 (expected)
+* Ph.D in Electrical Engineering, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2019 (expected):
   - Sandwich period at University of Rome - Tor Vergata, Italy, under supervision of professor <a href="https://scholar.google.com/citations?hl=en&user=2qegFbUAAAAJ" target="_blank">Arianna Mencattini</a> and funded by Erasmus Mundus program, from dec/2016 to jun/2017.
-* M.S. in Electrical Engineering, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2015
-  - Thesis: <a href="http://www.teses.usp.br/teses/disponiveis/18/18152/tde-29032016-160603/" target="_blank">"Proposal of Radiation Dose Reduction in Digital Mammography Using New Algorithms for Poisson Noise Filtering."</a>
-* B.S. in Computer Science, São Paulo State University (<a href="http://www.fct.unesp.br" target="_blank">UNESP</a>), Brazil, 2013
-  - Thesis: "Desenvolvimento de um Framework para o Reconhecimento Óptico de Caracteres." (PDF) (<a href="https://speakerdeck.com/helderc/desenvolvimento-de-um-framework-para-o-reconhecimento-ptico-de-caracteres" target="_blank">Slides</a>) (<a href="https://github.com/helderc/hIP" target="_blank">Source Code</a>)
+  
+* M.S. in Electrical Engineering, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2015:
+  - Thesis: <a href="http://doi.org/10.11606/D.18.2016.tde-29032016-160603/" target="_blank">"Proposal of Radiation Dose Reduction in Digital Mammography Using New Algorithms for Poisson Noise Filtering"</a>.
+  
+* B.S. in Computer Science, São Paulo State University (<a href="http://www.fct.unesp.br" target="_blank">UNESP</a>), Brazil, 2013:
+  - Thesis: "Desenvolvimento de um Framework para o Reconhecimento Óptico de Caracteres". (PDF) (<a href="https://speakerdeck.com/helderc/desenvolvimento-de-um-framework-para-o-reconhecimento-ptico-de-caracteres" target="_blank">Slides</a>) (<a href="https://github.com/helderc/hIP" target="_blank">Source Code</a>)
   
   
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
