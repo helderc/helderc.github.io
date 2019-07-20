@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Helder Oliveira"
   avatar           : "PhotoEditor_20190312_122522538.jpg"
-  bio              : "PhD student in Electrical Engineering working with medical images and machine learning"
+  bio              : "PhD student at University of São Paulo working with medical images and machine learning"
   location         : "São Carlos/SP, Brazil"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
