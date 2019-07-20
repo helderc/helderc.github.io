@@ -75,7 +75,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :  "UA-67863001-1"
+    tracking_id          :  UA-67863001-1
 
 
 # Site Author
@@ -115,6 +115,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  lattes           : "http://lattes.cnpq.br/1041425073778160"
+  figshare         : "https://figshare.com/authors/Helder_Oliveira/576027"
 
 
 # Reading Files
