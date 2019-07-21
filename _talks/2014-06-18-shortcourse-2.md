@@ -3,7 +3,7 @@ title: " Introdução ao LaTeX"
 collection: talks
 type: "Short-course"
 permalink: /talks/2014-06-18-shortcourse-2
-venue: "University of State of São Paulo, Presidente Prudente"
+venue: "São Paulo State University"
 date: 2014-06-18
 location: "Unesp Presidente Prudente, Brazil"
 ---
