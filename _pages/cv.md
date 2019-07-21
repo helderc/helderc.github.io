@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Click here to see a complete version of my CV](https://helderc.github.io/files/Helder_CV_20190721.pdf).
+
 Education
 ======
 * **Ph.D in Electrical Engineering**, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2019 (expected):
