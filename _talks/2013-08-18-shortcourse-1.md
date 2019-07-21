@@ -3,7 +3,7 @@ title: "Desenvolvimento de Aplicações Multiplataforma com Qt"
 collection: talks
 type: "Short-course"
 permalink: /talks/2013-08-18-shortcourse-1
-venue: "University of State of São Paulo, Presidente Prudente"
+venue: "São Paulo State University"
 date: 2013-08-18
 location: "Unesp Presidente Prudente, Brazil"
 ---
