@@ -10,9 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-Bayes
-======
-
 ## Coursera
 - [Bayesian Statistics - From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics/)
-	- [Notes Week 1](http://helderc.xyz/bayes/Bayesian Statistics - From Concept to Data Analysis/bayes_stats_week01.pdf)
+	- [Notes Week 1](https://github.com/helderc/bayes/raw/master/notes/bayes_stats_week01.pdf)
