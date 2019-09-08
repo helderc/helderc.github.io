@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Helder Oliveira"
   avatar           : "profile_helder.jpg"
-  bio              : "PhD student at University of São Paulo working with medical images and machine learning"
+  bio              : "PhD in Electrical Engineering by University of São Paulo. I work with image processing, machine learning, data analysis and biometrics."
   location         : "São Carlos/SP, Brazil"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/heldercro/"
   orcid            : "http://orcid.org/0000-0003-4558-2844"
   pinterest        :
   soundcloud       :
