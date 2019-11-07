@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Helder's web page"
 title_separator          : "-"
 name                     : &name "Helder C. R. Oliveira"
-description              : &description "Postdoctoral fellow at University of Calgary working with statistical data analysis, machine learning nad biometrics."
+description              : &description "Postdoctoral fellow at University of Calgary working with statistical data analysis, machine learning and biometry."
 url                      : "http://helderc.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "helderc/helderc.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Helder Oliveira"
   avatar           : "profile_helder.jpg"
-  bio              : "Postdoctoral fellow at University of Calgary working with statistical data analysis, machine learning nad biometrics."
+  bio              : "Postdoctoral fellow at University of Calgary working with statistical data analysis, machine learning and biometry."
   location         : "Calgary/AB, Canada"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
