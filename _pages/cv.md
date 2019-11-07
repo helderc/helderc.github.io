@@ -13,6 +13,8 @@ redirect_from:
 
 Education
 ======
+* **Postdoctoral Fellow**, University of Calgary (<a href="https://www.ucalgary.ca/btlab/" target="_blank">Biometric Technologies Lab</a>), Canada, 2019-;
+
 * **Ph.D in Electrical Engineering**, University of São Paulo (<a href="http://www.sel.eesc.usp.br/" target="_blank">USP</a>), Brazil, 2016-2019:
   - Thesis: "New Approaches for Automatic Detection of Architectural Distortion in Digital Mammography and Digital Breast Tomosynthesis";
   - Sandwich period at University of Rome - Tor Vergata, Italy, under supervision of professor <a href="https://scholar.google.com/citations?hl=en&user=2qegFbUAAAAJ" target="_blank">Arianna Mencattini</a> and funded by Erasmus Mundus program, from dec/2016 to jun/2017.
