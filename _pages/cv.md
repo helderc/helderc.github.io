@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Click here to see a complete version of my CV](https://helderc.github.io/files/Helder_CV_20190721.pdf). *Updated on*: 07/21/2019.
+[Click here to see a complete version of my CV](https://helderc.github.io/files/Helder_CV_20190723.pdf). *Updated on*: 07/23/2019.
 
 Education
 ======
