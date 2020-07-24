@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Bayes Inference"
+title: "Bayesian Networks"
 permalink: /bayes/
 author_profile: true
 redirect_from:
