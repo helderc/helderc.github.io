@@ -1,3 +1,3 @@
 Personal web page
 
-http://helderc.github.io
+http://helderc.xyz
