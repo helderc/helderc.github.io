@@ -25,4 +25,11 @@ Education
 * **B.S. in Computer Science**, São Paulo State University (<a href="http://www.fct.unesp.br" target="_blank">UNESP</a>), Brazil, 2009-2013:
   - Thesis: "Desenvolvimento de um Framework para o Reconhecimento Óptico de Caracteres". (PDF) (<a href="https://speakerdeck.com/helderc/desenvolvimento-de-um-framework-para-o-reconhecimento-ptico-de-caracteres" target="_blank">Slides</a>) (<a href="https://github.com/helderc/hIP" target="_blank">Source Code</a>).
   
+
+Services
+======
+- 2018 - present: Reviewer - <a href="https://www.journals.elsevier.com/international-journal-of-medical-informatics" target="_blank">International Journal of Medical Informatics</a>.
+- 2020 - present: Reviewer - <a href="https://www.nature.com/srep/" target="_blank">Scientific Reports</a>.
+- 2020 - present: Reviewer - <a href="https://www.journals.elsevier.com/computers-in-biology-and-medicine/" target="_blank">Computers in Biology and Medicine</a>.
+- 2020 - present: Reviewer - <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a>.
   
