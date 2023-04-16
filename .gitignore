@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 .DS_store
 .vscode
+.Rproj.user

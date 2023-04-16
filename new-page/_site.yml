@@ -1,24 +1,27 @@
-name: "Statistik"                                # CHANGE HERE 
+name: "Helder C. R. Oliveira"
 output_dir: "."
 navbar:
-  title: "Statistik"                             # CHANGE HERE 
+  title: ""
   type: inverse
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-user 
-      href: about.html
-#    - text: "CV"
-#      icon: fa-file-pdf-o
-#      href: cv.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: cv.html
+    - text: "Projects"
+      icon: fa-diagram-project 
+      href: projects.html
+    - text: "Teaching"
+      icon: fa-chalkboard-user 
+      href: Teaching.html
 #    - text: "Blog"
 #      icon: fa-rss
 #      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - icon: "fa-envelope fa-2x"
-      href: mailto:heldercro@gmail.com
+      href: mailto:heldercro[at]gmail[dot]com
     - icon: "ai-google-scholar ai-2x"
       href: https://scholar.google.com/citations?user=2M2ZAswAAAAJ
     - icon: "fa-github fa-2x"
