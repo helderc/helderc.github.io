@@ -15,7 +15,7 @@ navbar:
       href: projects.html
     - text: "Teaching"
       icon: fa-chalkboard-user 
-      href: Teaching.html
+      href: teaching.html
 #    - text: "Blog"
 #      icon: fa-rss
 #      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
@@ -25,7 +25,7 @@ navbar:
     - icon: "ai-google-scholar ai-2x"
       href: https://scholar.google.com/citations?user=2M2ZAswAAAAJ
     - icon: "fa-github fa-2x"
-      href: https://github.com/heldercro
+      href: https://github.com/helderc
     - icon: "ai-researchgate ai-2x"
       href: https://www.researchgate.net/profile/Helder-Oliveira-4
     - icon: "ai-orcid ai-2x"
@@ -39,3 +39,4 @@ output:
     highlight: textmate
     includes:
       in_header: header.html
+      after_body: footer.html
