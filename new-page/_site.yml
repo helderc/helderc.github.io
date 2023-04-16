@@ -1,0 +1,38 @@
+name: "Statistik"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "Statistik"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+#    - text: "CV"
+#      icon: fa-file-pdf-o
+#      href: cv.html
+#    - text: "Blog"
+#      icon: fa-rss
+#      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+  right:
+    - icon: "fa-envelope fa-2x"
+      href: mailto:heldercro@gmail.com
+    - icon: "ai-google-scholar ai-2x"
+      href: https://scholar.google.com/citations?user=2M2ZAswAAAAJ
+    - icon: "fa-github fa-2x"
+      href: https://github.com/heldercro
+    - icon: "ai-researchgate ai-2x"
+      href: https://www.researchgate.net/profile/Helder-Oliveira-4
+    - icon: "ai-orcid ai-2x"
+      href: https://orcid.org/0000-0003-4558-2844
+    - icon: "fa-linkedin fa-2x"
+      href: https://www.linkedin.com/in/heldercro/
+    
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    includes:
+      in_header: header.html

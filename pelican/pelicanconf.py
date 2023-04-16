@@ -1,6 +1,8 @@
 AUTHOR = 'Helder Oliveira'
-SITENAME = "Helder's Home Page"
+SITENAME = "Helder's Page"
 SITEURL = ''
+
+THEME = "themes/pelican-bootstrap3"
 
 PATH = 'content'
 
@@ -15,29 +17,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-OUTPUT_PATH = 'output'
-
-# static paths will be copied under the same name
-STATIC_PATHS = ['img', 'src']
-
-THEME = "themes/blue-penguin"
-
 # Blogroll
-#LINKS = (('Pelican', 'https://getpelican.com/'),
-#         ('Python.org', 'https://www.python.org/'),
-#         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-#         ('You can modify those links in your config file', '#'),)
+LINKS = (('Pelican', 'https://getpelican.com/'),
+         ('Python.org', 'https://www.python.org/'),
+         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-SUPPRESS_CATEGORIES_ON_MENU = True
-SUPPRESS_ITEM_CATEGORIES = True
-DISPLAY_PAGES_ON_MENU = True
-DELETE_OUTPUT_DIRECTORY = True
+RELATIVE_URLS = True
