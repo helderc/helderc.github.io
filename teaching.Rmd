@@ -1,17 +1,25 @@
 ---
 title: "Teaching"
-date: 'Updated: 2023-04-16'
+date: 'Updated: 2023-04-18'
 output: html_document
 ---
 
 ## 2023, Spring/Summer
 
-TBU
+- CMPS 369 Operating Systems for Software Development
+- CPSY 200 Software Analysis and Design
+- CMPS 303 Object-Oriented Software Analysis and Design
+- CPRG 311 Advanced Object-Oriented Programming in Java
 
-## 2023, Fall
 
-TBU
+## 2023, Winter
 
+- CMPS 369 Operating Systems for Software Development
+- CPRG 211 Object-Oriented Programming 2 (C#)
+- CPSY 200 Software Analysis and Design
+        
+        
 ## 2022, Fall
 
-TBU
+- CMPS 303 Object-Oriented Software Analysis and Design
+- CPRG 311 Advanced Object-Oriented Programming in Java
