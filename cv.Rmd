@@ -82,7 +82,7 @@ title: "CV"
     - [MDPI Biomolecules](https://www.mdpi.com/journal/biomolecules): 1x2021.
     - [MDPI Big Data and Cognitive Computing](https://www.mdpi.com/journal/BDCC): 2x2021.
     - [MDPI Int'l Journal of Environmental Research and Public Health](https://www.mdpi.com/journal/ijerph): 1x2021.
-    - [MDPI Diagnostics](https://www.mdpi.com/journal/diagnostics): 1x2021, 2x2022, 4x2023.
+    - [MDPI Diagnostics](https://www.mdpi.com/journal/diagnostics): 1x2021, 2x2022, 5x2023.
     - [MDPI Sensors](https://www.mdpi.com/journal/sensors): 4x2022.
     - [MDPI Journal of Imaging](https://www.mdpi.com/journal/jimaging): 2x2022.
     - [MDPI Cancers](https://www.mdpi.com/journal/cancers): 2x2022.
