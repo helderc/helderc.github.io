@@ -1,5 +1,5 @@
 ---
-title: "CV"
+pagetitle: "Helder's Home Page - CV"
 ---
 
 <a href="files/helder_cv_20211216.pdf" class="download" title="Download CV as PDF">Download CV</a>			
