@@ -6,3 +6,15 @@ title: "Projects"
 
 
 Under construction.
+
+
+- **Survival Analysis**: [[Jupyter Notebook](https://nbviewer.org/github/helderc/portfolio/blob/main/survival-analysis/survival-analysis-01.ipynb)] [[GitHub](https://github.com/helderc/portfolio/tree/main/survival-analysis)]
+	- *Library*: LifeLines
+	- *Methods*: Kaplan-Meier, Weibull, Exponential, LogNormal
+	- *Evaluation of covariates*: Weibull and Cox Proportional Hazards models.
+###
+- **Bee Images Classification**: [[Jupyter Notebook](https://nbviewer.org/github/helderc/portfolio/blob/main/BeeImage/beeimg_hog_pca.ipynb)] [[GitHub](https://github.com/helderc/portfolio/tree/main/BeeImage)]
+	- *Features*: HOG and Color pixel intensities (vector size of 31296 elements)
+	- *Feature transform*: PCA (the best number of components was analyzed)
+	- *Classifier*: SVM (linear kernel, binary classification)
+	- *Evaluation*: Accuracy, ROC curve and AUC ROC
