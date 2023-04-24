@@ -5,7 +5,9 @@ title: "Projects"
 
 This is an ongoing project of self-study/improvement where I create notebooks/markdowns of the techniques I’m learning. The initial idea is to have a cheat-sheet with notes for my own reference.
 
-**Code created for the papers are listed at the end of this page**.
+<p style="text-align: center;">
+    **Code created for the papers are listed at the end of this page**.
+</p>
 
 ## Study/Portifolio
 
