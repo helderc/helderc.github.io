@@ -5,7 +5,11 @@ _site
 Gemfile.lock
 .DS_store
 .vscode
-.Rproj.user
-.Rhistory
-.Rmd
+
+# Files
+
+*.Rproj.user
+*.Rhistory
+*.Rmd
+*.Rproj
 
