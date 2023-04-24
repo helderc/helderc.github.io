@@ -7,7 +7,6 @@ pagetitle: "Helder's Home Page - CV"
 
 ### General Information
 
-- **Full Name**: Helder C. R. de Oliveira</td>
 - **Nationality**: Brazilian
 - **Languages**: Portuguese (native), English, and Italian (beginner)
 - **Contact**: [heldercro[AT]gmail[DOT]com](mailto:heldercro[AT]gmail[DOT]com)
