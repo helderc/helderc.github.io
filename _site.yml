@@ -13,9 +13,9 @@ navbar:
     - text: "Projects"
       icon: fa-diagram-project 
       href: projects.html
-    #- text: "Teaching"
-    #  icon: fa-chalkboard-user 
-    #  href: teaching.html
+    - text: "Teaching"
+      icon: fa-chalkboard-user
+      href: teaching.html
 #    - text: "Blog"
 #      icon: fa-rss
 #      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
