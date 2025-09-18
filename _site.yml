@@ -16,12 +16,13 @@ navbar:
     - text: "Teaching"
       icon: fa-person-chalkboard
       href: teaching.html
-    - text: "Tutorials"
-      icon: fa-chalkboard-user
-      href: tutorials.html
-#    - text: "Blog"
-#      icon: fa-rss
-#      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+    # - text: "Tutorials"
+    #   icon: fa-chalkboard-user
+    #   href: tutorials.html
+    - text: "Blog"
+      icon: fa-rss
+      href: "../posts/"
+
   right:
     - icon: "fa-envelope fa-2x"
       href: mailto:heldercro [at] gmail [dot] com
