@@ -218,17 +218,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>When I connected the USB Wifi dongle based on Realtek RTL8188GU chip into my <a href="https://www.beagleboard.org/boards/beaglebone-black">Beaglebone Black (BBB)</a> Rev.&nbsp;C running Debian 12 (Linux BeagleBone 6.15.7-bone21) the device was recognized via <code>lsusb</code> but it didn’t work. Here I share the steps I did to make it work. This might also work to Raspberry Pi and others single-board computers.</p>
+<p>When I connected the USB Wifi dongle based on <strong>Realtek RTL8188GU</strong> chip into my <a href="https://www.beagleboard.org/boards/beaglebone-black">Beaglebone Black (BBB)</a> Rev.&nbsp;C running Debian 12 (Linux BeagleBone 6.15.7-bone21) the device was recognized via <code>lsusb</code> but it didn’t work. Here I share the steps I did to make it work.</p>
+<blockquote class="blockquote">
+<p>This might also work on Raspberry Pi and others single-board computers.</p>
+</blockquote>
 <p>Just for reference, below is the photo of the dongle that I have attached to the BBB.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="wifi-dongle-bbb.jpg" title="Wi-Fi on BeagleBone Black" class="img-fluid figure-img"></p>
-<figcaption>Wi-Fi on BeagleBone Black</figcaption>
+<figcaption>BeagleBone Black with Wi-Fi Dongle</figcaption>
 </figure>
 </div>
 <p>Before start, there are a couple of things you should to know:</p>
 <ol type="1">
-<li>My BBB is totally headless, no GUI at all only terminal.</li>
+<li>My BBB is totally headless, no GUI at all, only terminal.</li>
 <li>I used the image <a href="https://www.beagleboard.org/distros/beaglebone-black-debian-12-11-2025-06-30-iot-vscode-v6-15-x">BeagleBone Black Debian 12.11 2025-06-30 IoT-VSCode</a>.</li>
 <li>My BBB was connected to my main PC (running Windows 11) via USB cable. So I could access it via SSH.</li>
 <li>I set my Win 11 to share the internet connection with the BBB. So when I need to download anything I could do it directly from the BBB.</li>
@@ -310,7 +313,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> sudo wget https://github.com/Malik24626/RTL8188GU/tree/main/rtl8710bufw_SMIC.bin<span class="pp">?</span>raw=true <span class="at">-O</span> rtl8710bufw_SMIC.bin</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Make sure that you added the <code>?raw=true</code> after the filename otherwise <code>wget</code> will download a html page. If in doubt, open the link in a browser to verify it downloads the binary and not HTML.</p>
 <blockquote class="blockquote">
-<p>Later if found this <a href="https://www.mmnt.net/db/0/0/anduin.linuxfromscratch.org/BLFS/linux-firmware/rtlwifi">FTP server</a> with many others firmware available.</p>
+<p>Later, I found this <a href="https://www.mmnt.net/db/0/0/anduin.linuxfromscratch.org/BLFS/linux-firmware/rtlwifi">FTP server</a> with many others firmware available.</p>
 </blockquote>
 <p>Next, you reboot:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> sudo reboot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

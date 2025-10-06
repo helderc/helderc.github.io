@@ -35,13 +35,6 @@
     "text": "Summary\nThe table below summarizes the file size after each step.\n\n\n\nOptimization\nSize (bytes)\n\n\n\n\nNone\n173,495\n\n\n-Os & -flto\n158,068\n\n\nstrip\n23,040\n\n\nUPX\n11,776\n\n\n\nIt is worth remembering that those are incremental optimizations focusing on the file size. Thus, the UPX step has used the output of the strip which has used the result of GCC’s compilation with -Os and -flto. When using UPX there is an extra overhead added because of the decompression mechanism, but I didn’t consider it here."
   },
   {
-    "objectID": "oldindex.html",
-    "href": "oldindex.html",
-    "title": "Helder's Web Page",
-    "section": "",
-    "text": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nExecutable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Helder C. R. Oliveira, Ph.D.",
@@ -56,11 +49,18 @@
     "text": "Recent Posts"
   },
   {
+    "objectID": "oldindex.html",
+    "href": "oldindex.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nExecutable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/rtl8188gu_bbb.html",
     "href": "posts/rtl8188gu_bbb.html",
     "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
     "section": "",
-    "text": "When I connected the USB Wifi dongle based on Realtek RTL8188GU chip into my Beaglebone Black (BBB) Rev. C running Debian 12 (Linux BeagleBone 6.15.7-bone21) the device was recognized via lsusb but it didn’t work. Here I share the steps I did to make it work. This might also work to Raspberry Pi and others single-board computers.\nJust for reference, below is the photo of the dongle that I have attached to the BBB.\nBefore start, there are a couple of things you should to know:"
+    "text": "When I connected the USB Wifi dongle based on Realtek RTL8188GU chip into my Beaglebone Black (BBB) Rev. C running Debian 12 (Linux BeagleBone 6.15.7-bone21) the device was recognized via lsusb but it didn’t work. Here I share the steps I did to make it work.\nJust for reference, below is the photo of the dongle that I have attached to the BBB.\nBefore start, there are a couple of things you should to know:"
   },
   {
     "objectID": "posts/rtl8188gu_bbb.html#step-1-identify-the-dongle-with-lsusb",
@@ -81,7 +81,7 @@
     "href": "posts/rtl8188gu_bbb.html#step-3-installing-the-missing-firmware",
     "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
     "section": "Step 3 – Installing the missing firmware",
-    "text": "Step 3 – Installing the missing firmware\nSearching on the internet I found a GitHub repo with the file. So I downloaded it to the folder /lib/firmware/rtlwifi:\n$ cd /lib/firmware/rtlwifi\n$ sudo wget https://github.com/Malik24626/RTL8188GU/tree/main/rtl8710bufw_SMIC.bin?raw=true -O rtl8710bufw_SMIC.bin\nMake sure that you added the ?raw=true after the filename otherwise wget will download a html page. If in doubt, open the link in a browser to verify it downloads the binary and not HTML.\n\nLater if found this FTP server with many others firmware available.\n\nNext, you reboot:\n$ sudo reboot"
+    "text": "Step 3 – Installing the missing firmware\nSearching on the internet I found a GitHub repo with the file. So I downloaded it to the folder /lib/firmware/rtlwifi:\n$ cd /lib/firmware/rtlwifi\n$ sudo wget https://github.com/Malik24626/RTL8188GU/tree/main/rtl8710bufw_SMIC.bin?raw=true -O rtl8710bufw_SMIC.bin\nMake sure that you added the ?raw=true after the filename otherwise wget will download a html page. If in doubt, open the link in a browser to verify it downloads the binary and not HTML.\n\nLater, I found this FTP server with many others firmware available.\n\nNext, you reboot:\n$ sudo reboot"
   },
   {
     "objectID": "posts/rtl8188gu_bbb.html#step-4-checking-if-it-is-working",
