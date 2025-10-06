@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Helder’s Web Page - Helder C. R. Oliveira, Ph.D.</title>
+<title>Helder’s Web Page</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -77,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,7 +135,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -186,79 +187,62 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla content column-page">
-  <img src="helder100px.jpg" class="about-image
-  round " style="height: 100px; width: 100px;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Helder C. R. Oliveira, Ph.D.</h1>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="code,analysis" data-listing-date-sort="1727503200000" data-listing-file-modified-sort="1748909325473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1223">
+<div class="thumbnail">
+<p><a href="./posts/exe-optimization.html" class="no-external"></a></p><a href="./posts/exe-optimization.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/exe-optimization.html" class="no-external"></a></p>
 </div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header><main class="content column-page" id="quarto-document-content">
-<section id="update-in-progress" class="level4">
-<h4 data-anchor-id="update-in-progress">[Update in progress…]</h4>
-<p><br></p>
-<p>I have Bachelor’s Degree in <strong>Computer Science</strong> (<a href="https://fct.unesp.br">USP</a>’13, Brazil), M.Sc. (<a href="https://usp.br">USP</a>’15, Brazil) and Ph.D.&nbsp;(<a href="https://usp.br">USP</a>’19, Brazil) in Electrical Engineering. From 2019 to 2022 I was a Postdoctoral Fellow at the <a href="https://ucalgary.ca/">University of Calgary</a> in Canada.</p>
-<p>My background is in <strong>medical imaging</strong> (<em>mammography</em> and <em>digital breast tomosynthesis</em>), machine learning and computer vision. My work with mammography aimed to detect “architectural distortion of the breast”, a very sublet sign of what could become breast cancer. I also worked with denoising filters (BM3D, NLM, Wavelet-based) to remove spared noise when the mammography is acquired with a low radiation dose. During my postdoc, I worked mostly with <strong>probabilistic graphical models</strong> (<em>Bayesian networks</em> and <em>Structural Equation Modelling</em>) and time-series analysis.</p>
-<p>For an up-to-date list of publications, please refer to my <a href="https://scholar.google.com/citations?user=2M2ZAswAAAAJ">Google Scholar</a>.</p>
-<ul>
-<li><a href="https://file6.qzz.io/"><b>File6 Project</b></a>: a hobbyist’s webpage, running in a <a href="ttps://www.beagleboard.org/boards/beaglebone-black">Beaglebone Black</a> (<a href="https://en.wikipedia.org/wiki/Single-board_computer">Single-board Computer</a> - Embedded System) on classic systems, low-level programming, algorithms, malware analysis, and other cool tech projects. <em>It is a working in progress</em>. <br></li>
-</ul>
-</section>
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-
-
-</section>
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="code,analysis" data-listing-date-sort="1727503200000" data-listing-file-modified-sort="1748909325473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1223" data-listing-title-sort="Executable Optimization" data-listing-filename-sort="exe-optimization.md">
-<td>
-<span class="listing-date">Sep 28, 2024</span>
-</td>
-<td>
-<a href="./posts/exe-optimization.html" class="title listing-title">Executable Optimization</a>
-</td>
-<td>
-<span class="listing-author">Helder </span>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/exe-optimization.html" class="no-external">Executable Optimization</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/exe-optimization.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/exe-optimization.html" class="no-external">Some hints on code optimization aiming a small executable</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/exe-optimization.html" class="no-external">
+<div class="listing-date">
+Sep 28, 2024
+</div>
+<div class="listing-author">
+Helder
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -279,6 +263,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
