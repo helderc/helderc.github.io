@@ -35,6 +35,13 @@
     "text": "Summary\nThe table below summarizes the file size after each step.\n\n\n\nOptimization\nSize (bytes)\n\n\n\n\nNone\n173,495\n\n\n-Os & -flto\n158,068\n\n\nstrip\n23,040\n\n\nUPX\n11,776\n\n\n\nIt is worth remembering that those are incremental optimizations focusing on the file size. Thus, the UPX step has used the output of the strip which has used the result of GCC’s compilation with -Os and -flto. When using UPX there is an extra overhead added because of the decompression mechanism, but I didn’t consider it here."
   },
   {
+    "objectID": "oldindex.html",
+    "href": "oldindex.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nExecutable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Helder C. R. Oliveira, Ph.D.",
@@ -49,10 +56,45 @@
     "text": "Recent Posts"
   },
   {
-    "objectID": "oldindex.html",
-    "href": "oldindex.html",
-    "title": "Helder's Web Page",
+    "objectID": "posts/rtl8188gu_bbb.html",
+    "href": "posts/rtl8188gu_bbb.html",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
     "section": "",
-    "text": "Executable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
+    "text": "When I connected the USB Wifi dongle based on Realtek RTL8188GU chip into my Beaglebone Black (BBB) Rev. C running Debian 12 (Linux BeagleBone 6.15.7-bone21) the device was recognized via lsusb but it didn’t work. Here I share the steps I did to make it work. This might also work to Raspberry Pi and others single-board computers.\nJust for reference, below is the photo of the dongle that I have attached to the BBB.\nBefore start, there are a couple of things you should to know:"
+  },
+  {
+    "objectID": "posts/rtl8188gu_bbb.html#step-1-identify-the-dongle-with-lsusb",
+    "href": "posts/rtl8188gu_bbb.html#step-1-identify-the-dongle-with-lsusb",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
+    "section": "Step 1 – Identify the dongle with lsusb",
+    "text": "Step 1 – Identify the dongle with lsusb\nThis is an important step. We need to know that is there and if the Kernel have identified it:\n$ lsusb\nBus 001 Device 003: ID 0bda:b711 Realtek Semiconductor Corp. RTL8188GU 802.11n WLAN Adapter (After Modeswitch)\n...\nThis confirms that indeed I have a RTL8188GU (ID 0bda:b711)."
+  },
+  {
+    "objectID": "posts/rtl8188gu_bbb.html#step-2-mapping-the-driver-used",
+    "href": "posts/rtl8188gu_bbb.html#step-2-mapping-the-driver-used",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
+    "section": "Step 2 – Mapping the driver used",
+    "text": "Step 2 – Mapping the driver used\nIf the Kernel identified it, it might have tried to load a driver. To check that I run dmesg | grep firmware which gave me the following output:\ndebian@BeagleBone:~$ dmesg | grep firmware\n[ 19.272516] systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).\n[ 35.452599] remoteproc remoteproc0: Booting fw image am335x-pm-firmware.elf, size 217148\n[ 236.783513] usb 1-1: rtl8xxxu: Loading firmware rtlwifi/rtl8710bufw_SMIC.bin\n[ 236.801215] usb 1-1: Direct firmware load for rtlwifi/rtl8710bufw_SMIC.bin failed with error -2\n[ 236.810099] usb 1-1: request_firmware(rtlwifi/rtl8710bufw_SMIC.bin) failed\n[ 236.819474] usb 1-1: Fatal - failed to load firmware\nThe most important part are these three lines:\n[ 236.783513] usb 1-1: rtl8xxxu: Loading firmware rtlwifi/rtl8710bufw_SMIC.bin\n[ 236.801215] usb 1-1: Direct firmware load for rtlwifi/rtl8710bufw_SMIC.bin failed with error -2\n[ 236.810099] usb 1-1: request_firmware(rtlwifi/rtl8710bufw_SMIC.bin) failed\nThey informed that the Kernel has the driver rtl8xxxu that tried, and failed, to load the corresponding firmware rtl8710bufw_SMIC.bin. The file rtl8710bufw_SMIC.bin is specified in the Linux Kernel.\nOne could argue and say that I have the RTL8188GU but the kernel is loading the firmware for RTL8710BU. This is because Realtek use many chips with similar names and a generic driver (rtl8xxxu) that is suppose to server the many models. The exact correspondence one can know by checking the driver source-code or messages from dmesg, as I did.\nNote that your dmesg timestamps (these things at the beginning of each line[ 236.810099]) may differ depending on when the dongle is initialized.\nComing back to the firmware file (rtl8710bufw_SMIC.bin), I confirmed that I didn’t have it with ls -l /lib/firmware/rtlwifi:\ndebian@BeagleBone:~$ ls -l /lib/firmware/rtlwifi\ntotal 1040\n-rw-r--r-- 1 root root  11216 May  1  2023 rtl8188efw.bin\n-rw-r--r-- 1 root root  13904 May  1  2023 rtl8188eufw.bin\n-rw-r--r-- 1 root root  16192 May  1  2023 rtl8192cfw.bin\n-rw-r--r-- 1 root root  14818 May  1  2023 rtl8192cfwU.bin\n-rw-r--r-- 1 root root  16332 May  1  2023 rtl8192cfwU_B.bin\n-rw-r--r-- 1 root root  16014 May  1  2023 rtl8192cufw.bin\n-rw-r--r-- 1 root root  16126 May  1  2023 rtl8192cufw_A.bin\n-rw-r--r-- 1 root root  16096 May  1  2023 rtl8192cufw_B.bin\n-rw-r--r-- 1 root root  16126 May  1  2023 rtl8192cufw_TMSC.bin\n-rw-r--r-- 1 root root  31376 May  1  2023 rtl8192defw.bin\nlrwxrwxrwx 1 root root     17 May  1  2023 rtl8192eefw.bin -&gt; rtl8192eu_nic.bin\n-rw-r--r-- 1 root root  25264 May  1  2023 rtl8192eu_ap_wowlan.bin\n-rw-r--r-- 1 root root  32286 May  1  2023 rtl8192eu_nic.bin\n-rw-r--r-- 1 root root  29008 May  1  2023 rtl8192eu_wowlan.bin\n-rw-r--r-- 1 root root  80208 May  1  2023 rtl8192sefw.bin\n-rw-r--r-- 1 root root 122328 May  1  2023 rtl8712u.bin\n-rw-r--r-- 1 root root  22172 May  1  2023 rtl8723aufw_A.bin\n-rw-r--r-- 1 root root  24118 May  1  2023 rtl8723aufw_B.bin\n-rw-r--r-- 1 root root  19200 May  1  2023 rtl8723aufw_B_NoBT.bin\n-rw-r--r-- 1 root root  30746 May  1  2023 rtl8723befw.bin\n-rw-r--r-- 1 root root  31762 May  1  2023 rtl8723befw_36.bin\nlrwxrwxrwx 1 root root     23 May  1  2023 rtl8723bs_ap_wowlan.bin -&gt; rtl8723bu_ap_wowlan.bin\n-rw-r--r-- 1 root root   9120 May  1  2023 rtl8723bs_bt.bin\nlrwxrwxrwx 1 root root     17 May  1  2023 rtl8723bs_nic.bin -&gt; rtl8723bu_nic.bin\nlrwxrwxrwx 1 root root     20 May  1  2023 rtl8723bs_wowlan.bin -&gt; rtl8723bu_wowlan.bin\n-rw-r--r-- 1 root root  20886 May  1  2023 rtl8723bu_ap_wowlan.bin\n-rw-r--r-- 1 root root  32108 May  1  2023 rtl8723bu_nic.bin\n-rw-r--r-- 1 root root  26398 May  1  2023 rtl8723bu_wowlan.bin\n-rw-r--r-- 1 root root  27726 May  1  2023 rtl8723defw.bin\n-rw-r--r-- 1 root root  11662 May  1  2023 rtl8723fw.bin\n-rw-r--r-- 1 root root  22996 May  1  2023 rtl8723fw_B.bin\n-rw-r--r-- 1 root root  27516 May  1  2023 rtl8812aefw.bin\n-rw-r--r-- 1 root root  21204 May  1  2023 rtl8812aefw_wowlan.bin\n-rw-r--r-- 1 root root  28984 May  1  2023 rtl8821aefw.bin\n-rw-r--r-- 1 root root  28348 May  1  2023 rtl8821aefw_29.bin\n-rw-r--r-- 1 root root  19858 May  1  2023 rtl8821aefw_wowlan.bin\n-rw-r--r-- 1 root root 127496 May  1  2023 rtl8822befw.bin\n\nIn Debian-based distributions (Ubuntu, Mint, etc.) there is a package called firmware-realtek with some Realtek proprietary firmwares. However, it doesn’t have the firmware rtl8710bufw_SMIC.bin I needed. One can check what is included in the package here.\n\nThe conclusion from this step is that I needed the file rtl8710bufw_SMIC.bin."
+  },
+  {
+    "objectID": "posts/rtl8188gu_bbb.html#step-3-installing-the-missing-firmware",
+    "href": "posts/rtl8188gu_bbb.html#step-3-installing-the-missing-firmware",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
+    "section": "Step 3 – Installing the missing firmware",
+    "text": "Step 3 – Installing the missing firmware\nSearching on the internet I found a GitHub repo with the file. So I downloaded it to the folder /lib/firmware/rtlwifi:\n$ cd /lib/firmware/rtlwifi\n$ sudo wget https://github.com/Malik24626/RTL8188GU/tree/main/rtl8710bufw_SMIC.bin?raw=true -O rtl8710bufw_SMIC.bin\nMake sure that you added the ?raw=true after the filename otherwise wget will download a html page. If in doubt, open the link in a browser to verify it downloads the binary and not HTML.\n\nLater if found this FTP server with many others firmware available.\n\nNext, you reboot:\n$ sudo reboot"
+  },
+  {
+    "objectID": "posts/rtl8188gu_bbb.html#step-4-checking-if-it-is-working",
+    "href": "posts/rtl8188gu_bbb.html#step-4-checking-if-it-is-working",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
+    "section": "Step 4 – Checking if it is working",
+    "text": "Step 4 – Checking if it is working\nAfter the reboot, I checked with dmesg:\ndebian@BeagleBone:~$ dmesg | grep firmware\n...\n[   47.365423] usb 1-1: rtl8xxxu: Loading firmware rtlwifi/rtl8710bufw_SMIC.bin\n...\nAmong other lines I saw that the firmware was loaded without errors!\nSo I checked if there is a wlan interface:\ndebian@BeagleBone:~$ iw dev\nphy#0\n        Interface wlan0\n                ifindex 33\n                wdev 0x1d\n                addr 90:de:80:bc:ab:d1\n                ssid altair4\n                type managed\n                channel 1 (2412 MHz), width: 20 MHz, center1: 2412 MHz\n                txpower 30.00 dBm\n                multicast TXQ:\n                        qsz-byt qsz-pkt flows   drops   marks   overlmt hashcol tx-bytes        tx-packets\n                        0       0       0       0       0       0       0       0               0\nAfter setting up wpa_supplicant to connect to my local wifi, I checked if the wlan0 was getting an IP address:\ndebian@BeagleBone:~$ ifconfig\n...\nwlan0: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;  mtu 1500\n        inet 10.0.0.38  netmask 255.255.255.0  broadcast 10.0.0.255\n        inet6 2604:3d09:37d:73e0::e9d5  prefixlen 128  scopeid 0x0&lt;global&gt;\n        inet6 fe80::92de:80ff:febc:abd1  prefixlen 64  scopeid 0x20&lt;link&gt;\n        inet6 2604:3d09:37d:73e0:92de:80ff:febc:abd1  prefixlen 64  scopeid 0x0&lt;global&gt;\n        ether 90:de:80:bc:ab:d1  txqueuelen 1000  (Ethernet)\n        RX packets 42572  bytes 10449360 (9.9 MiB)\n        RX errors 0  dropped 0  overruns 0  frame 0\n        TX packets 44733  bytes 26019255 (24.8 MiB)\n        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0\nEverything seemed to be in place, so I rebooted the BB a couple of times just to check that driver-firmware were working. By the way, I was still connect to my main computer through USB cable."
+  },
+  {
+    "objectID": "posts/rtl8188gu_bbb.html#final-considerations",
+    "href": "posts/rtl8188gu_bbb.html#final-considerations",
+    "title": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work",
+    "section": "Final Considerations",
+    "text": "Final Considerations\n\nThe driver rtl8xxxu is in the Kernel, but the firmware was not included.\nNot all the firmwares are available but default, to keep a lean distribution or because it is a proprietary software.\nAlways check lsusb and dmesg if the dongle doesn’t work properly.\n\nWhat I didn’t include here was how to set up wpa_supplicant and manually get an IP address with dhclient.\n\nCheers!"
   }
 ]
