@@ -42,81 +42,60 @@
     "text": "Final Considerations\n\nThe driver rtl8xxxu is in the Kernel, but the firmware was not included.\nNot all the firmwares are available but default, to keep a lean distribution or because it is a proprietary software.\nAlways check lsusb and dmesg if the dongle doesn’t work properly.\n\nWhat I didn’t include here was how to set up wpa_supplicant and manually get an IP address with dhclient.\n\nCheers!"
   },
   {
-    "objectID": "penv/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.html",
-    "href": "penv/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.html",
+    "objectID": "helderc.github/tutorials.html",
+    "href": "helderc.github/tutorials.html",
     "title": "Helder's Web Page",
     "section": "",
-    "text": "BSD 3-Clause License\nCopyright (c) 2009-2012, Brian Granger, Min Ragan-Kelley\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    "text": "Here are listed the tutorials that I offered along the years.\n\nWIP"
   },
   {
-    "objectID": "penv/Lib/site-packages/numpy/random/LICENSE.html",
-    "href": "penv/Lib/site-packages/numpy/random/LICENSE.html",
-    "title": "NCSA Open Source License",
-    "section": "",
-    "text": "This software is dual-licensed under the The University of Illinois/NCSA Open Source License (NCSA) and The 3-Clause BSD License\n\nNCSA Open Source License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nDeveloped by: Kevin Sheppard (kevin.sheppard@economics.ox.ac.uk, kevin.k.sheppard@gmail.com) http://www.kevinsheppard.com\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\nNeither the names of Kevin Sheppard, nor the names of any contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n\n\n3-Clause BSD License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nComponents\nMany parts of this module have been derived from original sources, often the algorithm’s designer. Component licenses are located with the component code."
-  },
-  {
-    "objectID": "oldindex.html",
-    "href": "oldindex.html",
+    "objectID": "helderc.github/tutorials.html#tutorials",
+    "href": "helderc.github/tutorials.html#tutorials",
     "title": "Helder's Web Page",
     "section": "",
-    "text": "Wi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nSurvival Analysis\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nExecutable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are listed the tutorials that I offered along the years.\n\nWIP"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Helder C. R. Oliveira, Ph.D.",
-    "section": "",
-    "text": "I have Bachelor’s Degree in Computer Science (USP’13, Brazil), M.Sc. (USP’15, Brazil) and Ph.D. (USP’19, Brazil) in Electrical Engineering. From 2019 to 2022 I was a Postdoctoral Fellow at the University of Calgary in Canada.\nMy background is in medical imaging (mammography and digital breast tomosynthesis), machine learning and computer vision. My work with mammography aimed to detect “architectural distortion of the breast”, a very sublet sign of what could become breast cancer. I also worked with denoising filters (BM3D, NLM, Wavelet-based) to remove spared noise when the mammography is acquired with a low radiation dose. During my postdoc, I worked mostly with probabilistic graphical models (Bayesian networks and Structural Equation Modelling) and time-series analysis.\nFor an up-to-date list of publications, please refer to my Google Scholar.\n\nFile6 Project: a hobbyist’s webpage, running in a Beaglebone Black (Single-board Computer - Embedded System) on classic systems, low-level programming, algorithms, malware analysis, and other cool tech projects. It is a working in progress."
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Helder C. R. Oliveira, Ph.D.",
-    "section": "Recent Posts",
-    "text": "Recent Posts"
-  },
-  {
-    "objectID": "penv/Lib/site-packages/narwhals-2.7.0.dist-info/licenses/LICENSE.html",
-    "href": "penv/Lib/site-packages/narwhals-2.7.0.dist-info/licenses/LICENSE.html",
+    "objectID": "helderc.github/research.html",
+    "href": "helderc.github/research.html",
     "title": "Helder's Web Page",
     "section": "",
-    "text": "MIT License\nCopyright (c) 2024, Marco Gorelli\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "WIP\n\n\n\n\nre3data: It doesn’t store the data, but has links to them."
   },
   {
-    "objectID": "posts/exe-optimization.html",
-    "href": "posts/exe-optimization.html",
-    "title": "Executable Optimization",
+    "objectID": "helderc.github/research.html#research-resources",
+    "href": "helderc.github/research.html#research-resources",
+    "title": "Helder's Web Page",
     "section": "",
-    "text": "When coding in languages such as C or C++, or any other compiled language, I always aim to produce the smallest executable. The reason for that might be an old-school mind created in the floppy disk era where 1.44 mb was enough. Nowadays, it is easier to compile a code that produces executable pretty big even though the software doesn’t do much.\nThe goal of this “tutorial” is to show the steps that I came up with to produce the smallest executable. All the things shown here were done using Windows 11, MSYS2, VS Code and C language, but they can also be applied to many other situations.\nThe testing code uses SDL2 library to show a window that will be open for a few seconds only. Not that matters for this tutorial but, I’ll use it as a basis for other projects. Next is the boiler-plate code that I used:\nWhen compiled, using GCC (Rev3, Built by MSYS2 project) version 14.1.0, the executable generated had the size of 173,495 bytes. For this tutorial, the following line was used to compile the code:"
+    "text": "WIP\n\n\n\n\nre3data: It doesn’t store the data, but has links to them."
   },
   {
-    "objectID": "posts/exe-optimization.html#gcc",
-    "href": "posts/exe-optimization.html#gcc",
-    "title": "Executable Optimization",
-    "section": "GCC",
-    "text": "GCC\nThe first optimization can be done during compiling time. GCC has many optimization flags. Two of those are the most interesting to me, -Os and -flto. According to GCC’s documentation:\n\n-Os: optimizes the executable for size.\n-flto: runs the standard link-time optimizer. Usually, this is used together with the previous one.\n\nAdding the previous flags, the new executable has a size of 158,068 bytes and the compilation command is:\n# the code was simplified for reading purposes\n&gt; gcc ... -Os -flto code.c -o code.exe ..."
+    "objectID": "helderc.github/post/exe-compression.html",
+    "href": "helderc.github/post/exe-compression.html",
+    "title": "My First Blog Post",
+    "section": "",
+    "text": "Test"
   },
   {
-    "objectID": "posts/exe-optimization.html#stripping-.reloc",
-    "href": "posts/exe-optimization.html#stripping-.reloc",
-    "title": "Executable Optimization",
-    "section": "Stripping .reloc",
-    "text": "Stripping .reloc\nThe next optimization is not related to the compiler used. When executables are generated by a compiler they have the .reloc session which is used for debugging purposes. If you don’t plan to do any debugging with the executable using Ghidra or IDA, you can get rid of this session with the strip.exe included in the binutils of MSYS2. Its usage is as simple as:\n&gt; strip code.exe\nThe .reloc session will be removed from the very same code.exe, therefore no new file is created. The code.exe size is drastically reduced to 23,040 bytes!"
+    "objectID": "helderc.github/index.html",
+    "href": "helderc.github/index.html",
+    "title": "\nHelder C. R. Oliveira, Ph.D.\n",
+    "section": "",
+    "text": "Independent Researcher, Calgary, Canada (formerly with University of Calgary)\nI have Bachelor’s Degree in Computer Science (Unesp’13, Brazil), M.Sc. (USP’15, Brazil) and Ph.D. (USP’19, Brazil) in Electrical Engineering and from 2019 to 2022 was a Postdoctoral Fellow at the University of Calgary in Canada.\nMy background is in medical imaging (mammography and digital breast tomosynthesis), machine learning and computer vision. My work with mammography aimed to detect “architectural distortion of the breast”, a very sublet sign of what could become breast cancer. I also worked with denoising filters (BM3D, NLM, Wavelet-based) to remove spared noise when the mammography is acquired with a low radiation dose. During my postdoc, I worked mostly with probabilistic graphical models (Bayesian networks and Structural Equation Modelling) and time series.\nFor an up-to-date list of publications, please refer to my Google Scholar. If you want to see some of the projects I worked on, check the link to the Projects at the top of this page.\n&gt; File6 Project: a hobbyist’s webpage, running in a Beaglebone Black (Single-board Computer - Embedded System) on classic systems, low-level programming, algorithms, malware analysis, and other cool tech projects. It is a working in progress."
   },
   {
-    "objectID": "posts/exe-optimization.html#upx",
-    "href": "posts/exe-optimization.html#upx",
-    "title": "Executable Optimization",
-    "section": "UPX",
-    "text": "UPX\nAnother file size optimization is performed by compressing the executable. This new optimization is performed on the executable generated after the previous steps. Tools such as the open-source UPX or the proprietary ASPack can be used for this. There are other similar tools but here I used UPX only. When an executable is compressed with UPX no new file is created. The decompression mechanism is embedded into the same executable and it will decompress during runtime. UPX can also be used to compress other files such as .dlls. To use UPX you do upx executable.exe, however, I also used the flag --best to force the best compression level. So the command line is:\n&gt; upx --best code.exe\nUPX produced a file of only 11,776 bytes, a compression of about 51%."
+    "objectID": "helderc.github/index.html#blog-posts",
+    "href": "helderc.github/index.html#blog-posts",
+    "title": "\nHelder C. R. Oliveira, Ph.D.\n",
+    "section": "Blog Posts",
+    "text": "Blog Posts\n\nTest - May 1, 2025\n\nAnother Interesting Topic - April 15, 2025"
   },
   {
-    "objectID": "posts/exe-optimization.html#summary",
-    "href": "posts/exe-optimization.html#summary",
-    "title": "Executable Optimization",
-    "section": "Summary",
-    "text": "Summary\nThe table below summarizes the file size after each step.\n\n\n\nOptimization\nSize (bytes)\n\n\n\n\nNone\n173,495\n\n\n-Os & -flto\n158,068\n\n\nstrip\n23,040\n\n\nUPX\n11,776\n\n\n\nIt is worth remembering that those are incremental optimizations focusing on the file size. Thus, the UPX step has used the output of the strip which has used the result of GCC’s compilation with -Os and -flto. When using UPX there is an extra overhead added because of the decompression mechanism, but I didn’t consider it here."
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "General Information\n\nLanguages: Portuguese (native), English, and Italian (beginner)\nContact: research@helderc.xyz\n\n\n\nResearch Interests\n\nMedical Images: Lesion detection in mammography and digital breast tomosynthesis;\nCausality (Bayesian networks and Structural Equation Modelling) and Bayesian data analysis.\nEducation: students engagement in online environments.\n\n\n\nEducation\n\nPh.D. in Electrical Engineering (2016-2019), University of São Paulo (USP), Brazil.\n\nWES Canadian equivalent: Doctorate degree.\nThesis: “New Approaches for Automatic Detection of Architectural Distortion in Digital Mammography and Digital Breast Tomosynthesis”.\nSandwich period at the University of Rome - Tor Vergata, Italy, under supervision of professor Arianna Mencattini and funded by Erasmus Mundus program, from Dec/2016 to Jun/2017.\n\nM.Sc. in Electrical Engineering (2014-2015), University of São Paulo (USP), Brazil.\n\nWES Canadian equivalent: Master’s degree.\nThesis: “Proposal of Radiation Dose Reduction in Digital Mammography Using New Algorithms for Poisson Noise Filtering”\n\nB.S. in Computer Science (2009-2013), São Paulo State University (UNESP), Brazil.\n\nWES Canadian equivalent: Bachelor’s degree - four years.\nThesis: “Desenvolvimento de um Framework para o Reconhecimento Óptico de Caracteres”. (PDF) (Slides) (Source Code).\n\n\n\n\nWork Experience\n\n2022-2025, Full-time Instructor at Southern Alberta Institute of Technology (SAIT) in the Software Development Diploma:\n\nCMPS 369 Operating Systems for Software Developers: 2023 (Winter, Spring/Summer)\nCPSY 200 Software Analysis and Design 2023 (Winter, Spring/Summer), 2024 (Fall)\nCMPS 303 Object-Oriented Software Analysis and Design: 2022 (Fall), 2023 (Spring/Summer)\nCPRG 311 Advanced Object-Oriented Programming in Java: 2022 (Fall), 2023 (Spring/Summer)\nCPRG 211 Object-Oriented Programming 2 (C#): 2023 (Winter, Fall), 2024 (Spring/Summer, Fall)\nCPSY 300 Operating Systems: 2024 (Spring/Summer, Fall), 2025 (Winter)\n\n2022-23, Subject Matter Expert (SME) at Southern Alberta Institute of Technology (SAIT). Assisted in the development of the courses:\n\nOperating Systems.\nAlgorithms.\n\n2019-22: Postdoctoral Fellow at University of Calgary, Dept. of Electrical and Software Engineering. Biometric Technologies Laboratory.\n\nResearch with biometrics and healthcare data using probabilistic graphical models such as, Bayesian networks and Structural Equation Modeling.\nCo-instructor for two terms (Winter 2020 and 2021) in the course “ENCM 509 - Fundamentals of Biometric Systems Design”\n\n\n\n\nSoftware Development Skills\n\nProgramming Languages: Python, MATLAB, R, C, C++, C#, Java…\nLibraries: Jupyter Notebook, Numpy, Scipy, Matplotlib, StatsModels, Scikit-Learn, Scikit-Image, Seaborn, TensorFlow, Keras, PyAgrum, Semopy, PyWavelets…\n\n\n\nServices\n\nJournals\n\nGuest Editor:\n\nMDPI Cancers: 2023-Ongoing.\nSpringer Trans. on Computational Science (TCSC): 2022-2023.\n\nReviewer:\n\nInt’l Journal of Medical Informatics: 1x2018, 2x2019, 1x2023.\nScientific Reports: 1x2020, 2x2021, 1x2022, 2x2023.\nComputers in Biology and Medicine (CIBM): 1x2020, 8x2022, 6x2023.\nIEEE Access: 1x2020, 1x2021.\nIEEE Computational Intelligence Magazine (CIM): 1x2021.\nIEEE Trans. on Instrumentation and Measurement (TIM): 4x2022, 2x2023.\nIEEE Journal of Biomedical and Health Informatics (JBHI): 1x2022.\nMDPI Biosensors: 2x2021.\nMDPI Biomolecules: 1x2021.\nMDPI Big Data and Cognitive Computing: 2x2021.\nMDPI Int’l Journal of Environmental Research and Public Health: 1x2021.\nMDPI Diagnostics: 1x2021, 2x2022, 7x2023, 1x2024.\nMDPI Sensors: 4x2022, 2x2026.\nMDPI Journal of Imaging: 2x2022, 1x2023, 1x2024.\nMDPI Cancers: 2x2022, 1x2024.\nMDPI Tomography: 1x2022.\nMDPI Applied Sciences: 1x2022, 1x2023, 1x2026.\nMDPI Healthcare: 1x2022.\nJournal of Electronic Imaging (JEI): 1x2021, 2x2023.\nPhysics in Medicine & Biology: 1x2022, 2x2023.\nSpringer Trans. on Computational Science (TCSC): 4x2022.\nMDPI Biomedicines: 1x2022.\nMDPI Mathematics: 1x2023.\nRevista RESI (pt_BR): 1x2021, 1x2023.\nMDPI Signals: 1x2023.\nSpringer Artificial Intelligence Review: 2x2023.\nSpringer Signal, Image and Video Processing: 1x2023.\nMDPI Machine Learning and Knowledge Extraction (MAKE): 1x2023.\nMDPI Molecules: 1x2023.\nSpringer Brain Informatics: 1x2023.\nMDPI Photonics: 1x2023.\nSpringer Machine Vision and Applications: 1x2023.\nMDPI Future Internet: 2x2024.\nBiomedical Signal Processing and Control: 5x2024. 2x2025.\nMDPI Life: 1x2024.\nMDPI Technologies: 1x2024.\nJournal of Medical Imaging: 1x2025.\nVaccine: 1x2025.\nMDPI Electronics: 1x2025.\nIEEE Transactions on Human-Machine Systems: 2x2025.\n\n\n\n\nConferences\n\nReviewer:\n\nInt’l Conf. on Swarm Intelligence (ICSI): 2024, 2025.\nInt’l Conf. on Advances in Human-oriented and Personalized Mechanisms, Technologies, and Services (CENTRIC): 2022, 2023.\nIEEE World Congress on Computational Intelligence (IEEE WCCI): 2022.\nIEEE Int’l Conf. on Autonomous Systems (IEEE ICAS): 2021.\nIEEE Symp. Series on Computational Intelligence (IEEE SSCI): 2020, 2021, 2022.\nIEEE Int’l Conf. on Systems, Man, and Cybernetics (IEEE SMC): 2020.\n\n\n\n\n\nOther Interests\n\nHobbies:Philately (the art of collecting stamps) and Malware collection."
   },
   {
     "objectID": "posts/survival-analysis.html",
@@ -159,5 +138,124 @@
     "title": "Survival Analysis",
     "section": "Survival Function/Curve Estimation",
     "text": "Survival Function/Curve Estimation\n\\[\\Large S(t) = \\prod_{i:t_i \\leq t} \\left(1 - \\frac{d_i}{n_i} \\right)\\]\n\n\\(t_i\\): duration time\n\\(d_i\\): number of events that happened at time \\(t_i\\)\n\\(n_i\\): number of individuals known to have survived up to time \\(t_i\\)\n\n\nNon-parametric\n\nDoes not assume underlying distribution.\nDescribes the data better.\nIt is not smooth/differentiable\n\n\nKaplan-Meier Model\nmost used\n\nkmf = lfl.KaplanMeierFitter()\nkmf.fit(durations=df['tte'], event_observed=df['label'])\n\n&lt;lifelines.KaplanMeierFitter:\"KM_estimate\", fitted with 9966 total observations, 6633 right-censored observations&gt;\n\n\n\nkmf.plot_survival_function(at_risk_counts=True)\nplt.ylabel('Survival Probability');\n\n\n\n\n\n\n\n\n\n# this measure might be wrong because more than 50% of the data is censored\nprint('Median survival time:', kmf.median_survival_time_)\n\nMedian survival time: 208.0\n\n\n\n\n\nParametric\n\nUsually gives more information because there is an underlying distribution\nIs necessary to assess the goodness-of-fit to avoid biases and misinterpretations\n\n\nWeibull Model\n\\[\\Large f(x; \\lambda,k) = \\frac{k}{\\lambda} \\left( \\frac{x}{\\lambda} \\right)^{k-1} e^{-(x/\\lambda)^k} \\qquad \\longrightarrow \\quad S(t) = e^{-(t/\\lambda)^\\rho}\\]\n\\[x \\geq 0, k &gt; 0, \\lambda &gt; 0\\]\n\n\\(k\\) or \\(\\rho\\): shape of the distribution\n\n\\(k &lt; 1\\): event rate decreases over time\n\\(k = 1\\): event rate is constant\n\\(k &gt; 1\\): event rate increases over time\n\n\\(\\lambda\\): scale of the distribution (indicates when 63.2% of the population has experienced the event)\n\n\nwb = lfl.WeibullFitter()\n\n# Weibull needs non-zero tte\ndf['tte'] = df['tte'] + 1e-10\n\nwb.fit(durations=df['tte'], event_observed=df['label'])\n\n&lt;lifelines.WeibullFitter:\"Weibull_estimate\", fitted with 9966 total observations, 6633 right-censored observations&gt;\n\n\n\nprint('Lambda:', wb.lambda_)\nprint('Rho:', wb.rho_)\n\nax = wb.survival_function_.plot()\nax.set_title(\"Survival function of Weibull model / estimated parameters\")\n\nLambda: 358.7938759636887\nRho: 0.7952285765619703\n\n\nText(0.5, 1.0, 'Survival function of Weibull model / estimated parameters')\n\n\n\n\n\n\n\n\n\n\\(\\rho\\) is smaller than 1: the event rate (cancer incidence) decreases over time.\n\n\n\nComparing Several Models\n\nwb = lfl.WeibullFitter().fit(durations=df['tte'], event_observed=df['label'])\nexp = lfl.ExponentialFitter().fit(durations=df['tte'], event_observed=df['label'])\nlog = lfl.LogNormalFitter().fit(durations=df['tte'], event_observed=df['label'])\n\n\nAkaike Information Criterion (AIC)\n\nEstimates the prediction error and relative quality of statistical models\nThe less information the model loses, the higher its quality. From lifelines documentation: The model with the lowest AIC is desirable, since it’s a trade off between maximizing the log-likelihood with as few parameters as possible.\n\n\nprint('Weilbull model:', wb.AIC_)\nprint('Exponential model:', exp.AIC_)\nprint('LogNormal model:', log.AIC_)\n\nWeilbull model: 44222.28063808024\nExponential model: 44474.95418984919\nLogNormal model: 47666.55189603808\n\n\n\nmodels = {'Weibull':['r', wb], \n          'Exponential':['g', exp], \n          'LogNormal':['b', log]}\n\nfig, axes = plt.subplots(2, 3, figsize=(18, 8))\n\ni = 0\nfor model_name,model_lst in models.items():\n    m_color = model_lst[0]\n    model = model_lst[1]\n    \n    model.plot_survival_function(ax=axes[0,i], c=m_color)\n    ax = qq_plot(model, ax=axes[1,i], scatter_color=m_color)\n    ax.title.set_text(model_name)\n    i += 1\n\n\n\n\n\n\n\n\n\n\nFinding the best model based on AIC\n\nbest_model, best_aic_ = lfl.utils.find_best_parametric_model(event_times=df['tte'], \n                                                       event_observed=df['label'],\n                                                       scoring_method=\"AIC\")\nprint('Best model:', best_model)\nprint('Best model AIC:', best_aic_)\n\nBest model: &lt;lifelines.SplineFitter:\"SplineFitter: 3 internal knot\", fitted with 9966 total observations, 6633 right-censored observations&gt;\nBest model AIC: 43413.18093519307\n\n\n\nfig, axes = plt.subplots(1, 2, figsize=(18, 4))\n\nbest_model.plot_survival_function(ax=axes[0])\n\n# line below raises the error: NotImplementedError: Distribution not implemented in SciPy\n#qq_plot(best_model, ax=axes[1])\n\n\n\n\n\n\n\n\n\n\n\nWeibul Model and Covariates\n\naft = lfl.WeibullAFTFitter()\naft.fit(df=df, duration_col='tte', event_col='label')\n\n&lt;lifelines.WeibullAFTFitter: fitted with 9966 total observations, 6633 right-censored observations&gt;\n\n\n\naft.print_summary()\n\nAttributeError: The '.style' accessor requires jinja2\n\n\n\n\n\n\n\n\n\nmodel\nlifelines.WeibullAFTFitter\n\n\nduration col\n'tte'\n\n\nevent col\n'label'\n\n\nnumber of observations\n9966\n\n\nnumber of events observed\n3333\n\n\nlog-likelihood\n-21462.69\n\n\ntime fit was run\n2025-10-07 22:44:50 UTC\n\n\n\n\n\n\n\n\n\ncoef\nexp(coef)\nse(coef)\ncoef lower 95%\ncoef upper 95%\nexp(coef) lower 95%\nexp(coef) upper 95%\ncmp to\nz\np\n-log2(p)\n\n\n\n\nlambda_\nAGE_DX\n-5.74\n0.00\n0.18\n-6.10\n-5.39\n0.00\n0.00\n0.00\n-31.93\n&lt;0.005\n740.77\n\n\nBENBORDCOUNT\n1.43\n4.18\n1.14\n-0.81\n3.67\n0.45\n39.21\n0.00\n1.25\n0.21\n2.25\n\n\nEOD10_SZ\n-1.20\n0.30\n0.11\n-1.42\n-0.99\n0.24\n0.37\n0.00\n-11.04\n&lt;0.005\n91.66\n\n\nMALIGCOUNT\n-0.96\n0.38\n0.30\n-1.54\n-0.37\n0.21\n0.69\n0.00\n-3.22\n&lt;0.005\n9.60\n\n\nIntercept\n8.75\n6320.25\n0.10\n8.55\n8.95\n5157.63\n7744.94\n0.00\n84.38\n&lt;0.005\ninf\n\n\nrho_\nIntercept\n-0.16\n0.85\n0.01\n-0.19\n-0.13\n0.83\n0.88\n0.00\n-10.83\n&lt;0.005\n88.44\n\n\n\n\n\n\n\n\n\n\nConcordance\n0.66\n\n\nAIC\n42937.37\n\n\nlog-likelihood ratio test\n1292.91 on 4 df\n\n\n-log2(p) of ll-ratio test\n923.30"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Helder C. R. Oliveira, Ph.D.",
+    "section": "",
+    "text": "I have Bachelor’s Degree in Computer Science (USP’13, Brazil), M.Sc. (USP’15, Brazil) and Ph.D. (USP’19, Brazil) in Electrical Engineering. From 2019 to 2022 I was a Postdoctoral Fellow at the University of Calgary in Canada.\nMy background is in medical imaging (mammography and digital breast tomosynthesis), machine learning and computer vision. My work with mammography aimed to detect “architectural distortion of the breast”, a very sublet sign of what could become breast cancer. I also worked with denoising filters (BM3D, NLM, Wavelet-based) to remove spared noise when the mammography is acquired with a low radiation dose. During my postdoc, I worked mostly with probabilistic graphical models (Bayesian networks and Structural Equation Modelling) and time-series analysis.\nFor an up-to-date list of publications, please refer to my Google Scholar."
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Helder C. R. Oliveira, Ph.D.",
+    "section": "Recent Posts",
+    "text": "Recent Posts"
+  },
+  {
+    "objectID": "oldindex.html",
+    "href": "oldindex.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Survival Analysis\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nWi-Fi on BeagleBone Black: how to make the Realtek RTL8188GU dongle work\n\n\n\n\n\n\nlinux\n\n\ncode\n\n\nBBB\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHelder\n\n\n\n\n\n\n\n\n\n\n\n\nExecutable Optimization\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nSome hints on code optimization aiming a small executable\n\n\n\n\n\nSep 28, 2024\n\n\nHelder\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "helderc.github/cv.html",
+    "href": "helderc.github/cv.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Download CV\n\nGeneral Information\n\nLanguages: Portuguese (native), English, and Italian (beginner)\nContact: research@helderc.xyz\n\n\n\nResearch Areas\n\nMedical imaging with focus on machine learning, computer vision and pattern recognition.\n\n\n\nEducation\n\nPh.D. in Electrical Engineering (2016-2019), University of São Paulo (USP), Brazil.\n\nWES Canadian equivalent: Doctorate degree.\nThesis: “New Approaches for Automatic Detection of Architectural Distortion in Digital Mammography and Digital Breast Tomosynthesis”.\nSandwich period at the University of Rome - Tor Vergata, Italy, under supervision of professor Arianna Mencattini and funded by Erasmus Mundus program, from Dec/2016 to Jun/2017.\n\nM.Sc. in Electrical Engineering (2014-2015), University of São Paulo (USP), Brazil.\n\nWES Canadian equivalent: Master’s degree.\nThesis: “Proposal of Radiation Dose Reduction in Digital Mammography Using New Algorithms for Poisson Noise Filtering”\n\nB.S. in Computer Science (2009-2013), São Paulo State University (UNESP), Brazil.\n\nWES Canadian equivalent: Bachelor’s degree - four years.\nThesis: “Desenvolvimento de um Framework para o Reconhecimento Óptico de Caracteres”. (PDF) (Slides) (Source Code).\n\n\n\n\nWork Experience\n\n2022-2025, Full-time Instructor at Southern Alberta Institute of Technology (SAIT) in the Software Development Diploma:\n\nCMPS 369 Operating Systems for Software Developers: 2023 (Winter, Spring/Summer)\nCPSY 200 Software Analysis and Design 2023 (Winter, Spring/Summer), 2024 (Fall)\nCMPS 303 Object-Oriented Software Analysis and Design: 2022 (Fall), 2023 (Spring/Summer)\nCPRG 311 Advanced Object-Oriented Programming in Java: 2022 (Fall), 2023 (Spring/Summer)\nCPRG 211 Object-Oriented Programming 2 (C#): 2023 (Winter, Fall), 2024 (Spring/Summer, Fall)\nCPSY 300 Operating Systems: 2024 (Spring/Summer, Fall), 2025 (Winter)\n\n2022-23, Subject Matter Expert (SME) at Southern Alberta Institute of Technology (SAIT). Assisted in the development of the courses:\n\nOperating Systems.\nAlgorithms.\n\n2019-22: Postdoctoral Fellow at University of Calgary, Dept. of Electrical and Software Engineering. Biometric Technologies Laboratory.\n\nResearch with biometrics and healthcare data using probabilistic graphical models such as, Bayesian networks and Structural Equation Modeling.\nCo-instructor for two terms (Winter 2020 and 2021) in the course “ENCM 509 - Fundamentals of Biometric Systems Design”\n\n\n\n\nSoftware Development Skills\n\nProgramming Languages: Python, MATLAB, R, C, C++, C#, Java…\nLibraries: Jupyter Notebook, Numpy, Scipy, Matplotlib, StatsModels, Scikit-Learn, Scikit-Image, Seaborn, TensorFlow, Keras, PyAgrum, Semopy, PyWavelets…\n\n\n\nServices\n\nJournals\n\nGuest Editor:\n\nMDPI Cancers: 2023.\nSpringer Trans. on Computational Science (TCSC): 2022-2023.\n\nReviewer:\n\nInt’l Journal of Medical Informatics: 1x2018, 2x2019, 1x2023.\nScientific Reports: 1x2020, 2x2021, 1x2022, 2x2023.\nComputers in Biology and Medicine (CIBM): 1x2020, 8x2022, 6x2023.\nIEEE Access: 1x2020, 1x2021.\nIEEE Computational Intelligence Magazine (CIM): 1x2021.\nIEEE Trans. on Instrumentation and Measurement (TIM): 4x2022, 2x2023.\nIEEE Journal of Biomedical and Health Informatics (JBHI): 1x2022.\nMDPI Biosensors: 2x2021.\nMDPI Biomolecules: 1x2021.\nMDPI Big Data and Cognitive Computing: 2x2021.\nMDPI Int’l Journal of Environmental Research and Public Health: 1x2021.\nMDPI Diagnostics: 1x2021, 2x2022, 7x2023, 1x2024.\nMDPI Sensors: 4x2022, 2x2026.\nMDPI Journal of Imaging: 2x2022, 1x2023, 1x2024.\nMDPI Cancers: 2x2022, 1x2024.\nMDPI Tomography: 1x2022.\nMDPI Applied Sciences: 1x2022, 1x2023, 1x2026.\nMDPI Healthcare: 1x2022.\nJournal of Electronic Imaging (JEI): 1x2021, 2x2023.\nPhysics in Medicine & Biology: 1x2022, 2x2023.\nSpringer Trans. on Computational Science (TCSC): 4x2022.\nMDPI Biomedicines: 1x2022.\nMDPI Mathematics: 1x2023.\nRevista RESI (pt_BR): 1x2021, 1x2023.\nMDPI Signals: 1x2023.\nSpringer Artificial Intelligence Review: 2x2023.\nSpringer Signal, Image and Video Processing: 1x2023.\nMDPI Machine Learning and Knowledge Extraction (MAKE): 1x2023.\nMDPI Molecules: 1x2023.\nSpringer Brain Informatics: 1x2023.\nMDPI Photonics: 1x2023.\nSpringer Machine Vision and Applications: 1x2023.\nMDPI Future Internet: 2x2024.\nBiomedical Signal Processing and Control: 5x2024. 2x2025.\nMDPI Life: 1x2024.\nMDPI Technologies: 1x2024.\nJournal of Medical Imaging: 1x2025.\nVaccine: 1x2025.\nMDPI Electronics: 1x2025. ​​- IEEE ​Transactions on Human-Machine Systems: 2x2025.\n\n\n\n\nConferences\n\nReviewer:\n\nInt’l Conf. on Swarm Intelligence (ICSI): 2024, 2025.\nInt’l Conf. on Advances in Human-oriented and Personalized Mechanisms, Technologies, and Services (CENTRIC): 2022, 2023.\nIEEE World Congress on Computational Intelligence (IEEE WCCI): 2022.\nIEEE Int’l Conf. on Autonomous Systems (IEEE ICAS): 2021.\nIEEE Symp. Series on Computational Intelligence (IEEE SSCI): 2020, 2021, 2022.\nIEEE Int’l Conf. on Systems, Man, and Cybernetics (IEEE SMC): 2020.\n\n\n\n\n\nOther Interests\n\nHobbies:Philately (the art of collecting stamps) and Malware collection."
+  },
+  {
+    "objectID": "helderc.github/oldstuff.html",
+    "href": "helderc.github/oldstuff.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Here are listed the tutorials that I offered along the years.\n\nWIP"
+  },
+  {
+    "objectID": "helderc.github/oldstuff.html#tutorials",
+    "href": "helderc.github/oldstuff.html#tutorials",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "Here are listed the tutorials that I offered along the years.\n\nWIP"
+  },
+  {
+    "objectID": "helderc.github/projects.html",
+    "href": "helderc.github/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an ongoing project of self-study/improvement where I create notebooks/markdowns of the techniques I’m learning. The initial idea is to have a cheat-sheet with notes for my own reference.\nCode created for the papers are listed at the end of this page."
+  },
+  {
+    "objectID": "helderc.github/projects.html#studyportifolio",
+    "href": "helderc.github/projects.html#studyportifolio",
+    "title": "Projects",
+    "section": "Study/Portifolio",
+    "text": "Study/Portifolio\n\nSurvival Analysis: [Jupyter Notebook] [GitHub]\n\nLanguage: Python\nLibrary: LifeLines\nMethods: Kaplan-Meier, Weibull, Exponential, LogNormal\nEvaluation of covariates: Weibull and Cox Proportional Hazards models.\n\n\n\n\nBee Images Classification: [Jupyter Notebook] [GitHub]\n\nLanguage: Python\nFeatures: HOG and Color pixel intensities (vector size of 31296 elements)\nFeature transform: PCA (the best number of components was analyzed)\nClassifier: SVM (linear kernel, binary classification)\nEvaluation: Accuracy, ROC curve and AUC ROC"
+  },
+  {
+    "objectID": "helderc.github/projects.html#papers",
+    "href": "helderc.github/projects.html#papers",
+    "title": "Projects",
+    "section": "Papers",
+    "text": "Papers\nFor a complete list of publications check my Google Scholar.\n\nSensitivity Analysis of Stroke Predictors Using Structural Equation Modeling and Bayesian Networks\n\n\n\n\nConference: 2022 IEEE Conf. on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)\nCode: Jupyter Notebook\nDOI: CIBCB55180.2022.9863028\n\n\n\n\nDecision Support for Infection Outbreak Analysis: the case of the Diamond Princess cruise ship\n\n\n\n\nConference: 2021 IEEE Symp. Series on Computational Intelligence (SSCI)\nCode: Jupyter Notebook\nDOI: SSCI50451.2021.9660140\n\n\n\n\nA cross-cutting approach for tracking architectural distortion locii on digital breast tomosynthesis slices\n\n\n\n\nJournal: Biomedical Signal Processing and Control\nDOI: 10.1016/j.bspc.2019.01.001\n\n\n\n\nExploratory learning with convolutional autoencoder for discrimination of architectural distortion in digital mammography\n\n\n\n\nConference: SPIE Medical Imaging 2019: Computer-Aided Diagnosis\nDOI: 10.1117/12.2513021\n\n\n\n\nReduction of false-positives in a CAD scheme for automated detection of architectural distortion in digital mammography\n\n\n\n\nConference: SPIE Medical Imaging 2018: Computer-Aided Diagnosis\nDOI: 10.1117/12.2293388\n\n\n\n\nValidation of no-reference image quality index for the assessment of digital mammographic images\n\n\n\n\nConference: SPIE Medical Imaging 2016: Image Perception, Observer Performance, and Technology Assessment\nDOI: 10.1117/12.2217229\n\n\n\n\nUse of Wavelet Multiresolution Analysis to Reduce Radiation Dose in Digital Mammography\n\n\n\n\nConference: 2015 IEEE 28th Intl Symp. on Computer-Based Medical Systems\nCode: Matlab\nDOI: 10.1109/CBMS.2015.35\n\n\n\n\nFeasibility study of dose reduction in digital breast tomosynthesis using non-local denoising algorithms\n\n\n\n\nConference: SPIE Medical Imaging 2015: Physics of Medical Imaging\nDOI: 10.1117/12.2082398"
+  },
+  {
+    "objectID": "helderc.github/teaching.html",
+    "href": "helderc.github/teaching.html",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "CPSY 300 Operating Systems\nCPSY 200 Software Analysis and Design\n\n\n\n\n\nCPSY 300 Operating Systems\nCPRG 211 Object-Oriented Programming 2 (C#)\n\n\n\n\n\nTime-off & Personal Development\n\n\n\n\n\nITSC 315 Security for Software Developers\nCPRG 211 Object-Oriented Programming 2 (C#)\nCPRG 304 Object-Oriented Programming 3 (Java)\n\n\n\n\n\nCMPS 369 Operating Systems for Software Development\nCPSY 200 Software Analysis and Design\nCMPS 303 Object-Oriented Software Analysis and Design\nCPRG 311 Advanced Object-Oriented Programming in Java\n\n\n\n\n\nCMPS 369 Operating Systems for Software Development\nCPRG 211 Object-Oriented Programming 2 (C#)\nCPSY 200 Software Analysis and Design\n\n\n\n\n\nCMPS 303 Object-Oriented Software Analysis and Design\nCPRG 311 Advanced Object-Oriented Programming in Java"
+  },
+  {
+    "objectID": "helderc.github/teaching.html#southern-alberta-insitute-of-technology-sait",
+    "href": "helderc.github/teaching.html#southern-alberta-insitute-of-technology-sait",
+    "title": "Helder's Web Page",
+    "section": "",
+    "text": "CPSY 300 Operating Systems\nCPSY 200 Software Analysis and Design\n\n\n\n\n\nCPSY 300 Operating Systems\nCPRG 211 Object-Oriented Programming 2 (C#)\n\n\n\n\n\nTime-off & Personal Development\n\n\n\n\n\nITSC 315 Security for Software Developers\nCPRG 211 Object-Oriented Programming 2 (C#)\nCPRG 304 Object-Oriented Programming 3 (Java)\n\n\n\n\n\nCMPS 369 Operating Systems for Software Development\nCPSY 200 Software Analysis and Design\nCMPS 303 Object-Oriented Software Analysis and Design\nCPRG 311 Advanced Object-Oriented Programming in Java\n\n\n\n\n\nCMPS 369 Operating Systems for Software Development\nCPRG 211 Object-Oriented Programming 2 (C#)\nCPSY 200 Software Analysis and Design\n\n\n\n\n\nCMPS 303 Object-Oriented Software Analysis and Design\nCPRG 311 Advanced Object-Oriented Programming in Java"
+  },
+  {
+    "objectID": "helderc.github/teaching.html#university-of-calgary",
+    "href": "helderc.github/teaching.html#university-of-calgary",
+    "title": "Helder's Web Page",
+    "section": "University of Calgary",
+    "text": "University of Calgary\n\n2021 & 2022, Winter\n\nENCM 509 Fundamentals of Biometric Systems Design"
+  },
+  {
+    "objectID": "posts/exe-optimization.html",
+    "href": "posts/exe-optimization.html",
+    "title": "Executable Optimization",
+    "section": "",
+    "text": "When coding in languages such as C or C++, or any other compiled language, I always aim to produce the smallest executable. The reason for that might be an old-school mind created in the floppy disk era where 1.44 mb was enough. Nowadays, it is easier to compile a code that produces executable pretty big even though the software doesn’t do much.\nThe goal of this “tutorial” is to show the steps that I came up with to produce the smallest executable. All the things shown here were done using Windows 11, MSYS2, VS Code and C language, but they can also be applied to many other situations.\nThe testing code uses SDL2 library to show a window that will be open for a few seconds only. Not that matters for this tutorial but, I’ll use it as a basis for other projects. Next is the boiler-plate code that I used:\nWhen compiled, using GCC (Rev3, Built by MSYS2 project) version 14.1.0, the executable generated had the size of 173,495 bytes. For this tutorial, the following line was used to compile the code:"
+  },
+  {
+    "objectID": "posts/exe-optimization.html#gcc",
+    "href": "posts/exe-optimization.html#gcc",
+    "title": "Executable Optimization",
+    "section": "GCC",
+    "text": "GCC\nThe first optimization can be done during compiling time. GCC has many optimization flags. Two of those are the most interesting to me, -Os and -flto. According to GCC’s documentation:\n\n-Os: optimizes the executable for size.\n-flto: runs the standard link-time optimizer. Usually, this is used together with the previous one.\n\nAdding the previous flags, the new executable has a size of 158,068 bytes and the compilation command is:\n# the code was simplified for reading purposes\n&gt; gcc ... -Os -flto code.c -o code.exe ..."
+  },
+  {
+    "objectID": "posts/exe-optimization.html#stripping-.reloc",
+    "href": "posts/exe-optimization.html#stripping-.reloc",
+    "title": "Executable Optimization",
+    "section": "Stripping .reloc",
+    "text": "Stripping .reloc\nThe next optimization is not related to the compiler used. When executables are generated by a compiler they have the .reloc session which is used for debugging purposes. If you don’t plan to do any debugging with the executable using Ghidra or IDA, you can get rid of this session with the strip.exe included in the binutils of MSYS2. Its usage is as simple as:\n&gt; strip code.exe\nThe .reloc session will be removed from the very same code.exe, therefore no new file is created. The code.exe size is drastically reduced to 23,040 bytes!"
+  },
+  {
+    "objectID": "posts/exe-optimization.html#upx",
+    "href": "posts/exe-optimization.html#upx",
+    "title": "Executable Optimization",
+    "section": "UPX",
+    "text": "UPX\nAnother file size optimization is performed by compressing the executable. This new optimization is performed on the executable generated after the previous steps. Tools such as the open-source UPX or the proprietary ASPack can be used for this. There are other similar tools but here I used UPX only. When an executable is compressed with UPX no new file is created. The decompression mechanism is embedded into the same executable and it will decompress during runtime. UPX can also be used to compress other files such as .dlls. To use UPX you do upx executable.exe, however, I also used the flag --best to force the best compression level. So the command line is:\n&gt; upx --best code.exe\nUPX produced a file of only 11,776 bytes, a compression of about 51%."
+  },
+  {
+    "objectID": "posts/exe-optimization.html#summary",
+    "href": "posts/exe-optimization.html#summary",
+    "title": "Executable Optimization",
+    "section": "Summary",
+    "text": "Summary\nThe table below summarizes the file size after each step.\n\n\n\nOptimization\nSize (bytes)\n\n\n\n\nNone\n173,495\n\n\n-Os & -flto\n158,068\n\n\nstrip\n23,040\n\n\nUPX\n11,776\n\n\n\nIt is worth remembering that those are incremental optimizations focusing on the file size. Thus, the UPX step has used the output of the strip which has used the result of GCC’s compilation with -Os and -flto. When using UPX there is an extra overhead added because of the decompression mechanism, but I didn’t consider it here."
   }
 ]
